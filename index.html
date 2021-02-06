@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="George W. Park">
+    <meta name="description" content="This project demonstrates how CSS grid (with flexbox and float fallback) can be used to re-create the layout of an Instagram profile page.">
+
+    <!-- Title -->
+    <title>Instagram Profile Layout</title>
+
+    <!-- External CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <style>
+        a{
+            color: rgb(80, 80, 80);
+            
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <div class="profile">
+
+                <div class="profile-image">
+
+                    <img src="img/logo.png" alt="">
+
+                </div>
+
+                <div class="profile-user-settings">
+
+                    <h1 class="profile-user-name">tercumadan</h1>
+
+                </div>
+
+                <div class="profile-bio">
+
+                    <p><span class="profile-real-name">Tercuma</p>
+                    <p>Her cuma, Tercuma</p>    
+                    <p> <a href="www.tercumma.com"> www.tercuma.com</a></p>
+
+                </div>
+
+            </div>
+            <!-- End of profile section -->
+
+        </div>
+        <!-- End of container -->
+
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/1819_da_İngiltere"><img src="img/ruler_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/1819_da_İngiltere"><img src="img/Percy_Bysshe_Shelley_by_Alfred_Clint.jpg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/1819_da_İngiltere"><img src="img/ruler_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+            
+            <div class="gallery">
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_tr.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_yazar.jpeg" class="gallery-image" alt=""></a>
+
+                </div>
+
+                <div class="gallery-item" tabindex="0">
+
+                    <a href="http://www.tercuma.com/sayfa/Sessizlik"><img src="img/sessiz_en.png" class="gallery-image" alt=""></a>
+
+                </div>
+
+            </div>
+
+        
+
+        </div>
+        <!-- End of container -->
+
+    </main>
+
+</body>
+</html>
